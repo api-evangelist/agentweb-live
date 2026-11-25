@@ -66,7 +66,7 @@
 
 AgentWeb provides real‑world business data, web search, live local search, travel information, and a recipe engine for AI agents via a single API. It indexes over 128 million businesses across 195 countries, offering structured data such as phone numbers, addresses, categories, ratings, and live booking links. The platform also delivers indexed web search results and supports tool integration through its hosted MCP, enabling agents to perform searches, fetch data, and execute recipes without scraping.
 
-**Areas:** Company · Data · AI · Search · Business
+**Areas:** Company · Data · Artificial Intelligence · Search · Business
 
 ## AgentWeb on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for AgentWeb is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentweb-live-mcp.yml](https://apis.io/servers/agentweb-live/agentweb-live-mcp-yml/)
+
 #### JSON-LD (1)
 
 Linked-data contexts for the provider's vocabulary.
@@ -90,7 +96,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Agentweb Live Openapi Overlay](https://apis.io/overlays/agentweb-live/agentweb-live-openapi-overlay/)
+- [AgentWeb Openapi Overlay](https://apis.io/overlays/agentweb-live/agentweb-live-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -102,14 +108,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentweb Live Authentication](https://apis.io/security/agentweb-live/agentweb-live-authentication/)
-- [Agentweb Live Domain Security](https://apis.io/security/agentweb-live/agentweb-live-domain-security/)
+- [AgentWeb Authentication](https://apis.io/security/agentweb-live/agentweb-live-authentication/)
+- [AgentWeb Domain Security](https://apis.io/security/agentweb-live/agentweb-live-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentweb Live Scopes](https://apis.io/scopes/agentweb-live/agentweb-live-scopes/)
+- [AgentWeb Scopes](https://apis.io/scopes/agentweb-live/agentweb-live-scopes/)
 
 ## Where to find this API
 
@@ -124,24 +130,24 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.7** — thin · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 23.1** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
+| Discoverability | 75.0 |
 | Contract quality | 14.7 |
-| Contract governance | 79.1 |
-| Operational transparency | 15.8 |
-| Developer ergonomics | 42.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 37.5 |
 | Access clarity | 0.0 |
 
-**Agent readiness 7.1** — agent-aware
+**Agent readiness 6.7** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | — |
 | Agentic Access | — |
-| Reversibility Documented | — |
+| Reversibility Documented | documented (partial credit) |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
@@ -149,7 +155,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -160,6 +166,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
 
